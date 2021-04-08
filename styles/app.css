@@ -13,12 +13,24 @@
 /* Full list of utilities */
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply font-sans;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+}
+
 @layer components {
   .btn {
     @apply focus:outline-none focus:ring focus:ring-offset-2 inline-block px-5 py-3 uppercase tracking-wider font-semibold text-sm rounded-lg;
   }
   .btn-primary {
-    @apply hover:bg-indigo-400 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-500 bg-indigo-500 text-white;
+    @apply hover:bg-primary-light focus:ring-primary-dark focus:ring-opacity-50 active:bg-primary-dark bg-primary text-white;
   }
   .btn-secondary {
     @apply hover:bg-gray-200 focus:ring-gray-300 focus:ring-opacity-50 active:bg-gray-400 bg-gray-300 text-gray-800;
