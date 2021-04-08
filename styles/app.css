@@ -14,6 +14,20 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-text-base: #333;
+    --color-text-headline: #666;
+    --color-text-subhead: #999;
+    --color-app: #f3f4f6;
+  }
+
+  .theme-webgeeks {
+    --color-text-base: #f3f4f6;
+    --color-text-headline: #ddd;
+    --color-text-subhead: #ccc;
+    --color-app: #333;
+  }
+
   body {
     @apply font-sans;
   }

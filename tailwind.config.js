@@ -10,6 +10,18 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      textColor: {
+        skin: {
+          base: "var(--color-text-base)",
+          headline: "var(--color-text-headline)",
+          subhead: "var(--color-text-subhead)",
+        },
+      },
+      backgroundColor: {
+        skin: {
+          app: "var(--color-app)",
+        },
+      },
       colors: {
         primary: {
           light: "#49BBE9",
