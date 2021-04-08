@@ -12,3 +12,15 @@
 
 /* Full list of utilities */
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply focus:outline-none focus:ring focus:ring-offset-2 inline-block px-5 py-3 uppercase tracking-wider font-semibold text-sm rounded-lg;
+  }
+  .btn-primary {
+    @apply hover:bg-indigo-400 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-500 bg-indigo-500 text-white;
+  }
+  .btn-secondary {
+    @apply hover:bg-gray-200 focus:ring-gray-300 focus:ring-opacity-50 active:bg-gray-400 bg-gray-300 text-gray-800;
+  }
+}
