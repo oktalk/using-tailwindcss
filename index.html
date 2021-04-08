@@ -13,7 +13,7 @@
   <title>Document</title>
 </head>
 
-<body class="theme-webgeeks bg-skin-app">
+<body class="bg-skin-app">
   <div class="px-8 py-12 w-full md:max-w-4xl lg:max-w-5xl mx-auto">
     <img src="./img/logo-12.svg" alt="Logo Ipsum" class="mb-6" width="200" />
     <div class="md:flex md:items-center md:flex-row -mx-4">
@@ -35,6 +35,20 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="px-8 py-12 w-full md:max-w-4xl lg:max-w-5xl mx-auto">
+    <form action="/action_page.php">
+      <div>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="John"><br>
+      </div>
+      <div>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+      </div>
+      <input type="submit" value="Submit" class="btn bg-gray-500 text-white">
+    </form>
   </div>
 </body>
 

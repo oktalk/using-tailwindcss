@@ -45,5 +45,7 @@ module.exports = {
       backgroundColor: ["active"], // not enabled by default
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms")
+  ],
 };
