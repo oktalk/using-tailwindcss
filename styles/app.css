@@ -1,0 +1,14 @@
+.hello {
+  color: blue;
+}
+
+/* Tailwind layers */
+
+/* CSS resets */
+@tailwind base;
+
+/* Your components */
+@tailwind components;
+
+/* Full list of utilities */
+@tailwind utilities;
