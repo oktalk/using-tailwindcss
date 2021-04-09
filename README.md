@@ -17,7 +17,7 @@ You can start playing around with the styles, but you won't get far without refe
 
 TailwindCSS will drop in easily to most modern project stacks. If you're using [Laravel](https://tailwindcss.com/docs/guides/laravel), React, Vue, or [Ruby on Rails](https://github.com/rails/tailwindcss-rails) you can find step-by-step [installation guides](https://tailwindcss.com/docs/installation). Using Tailwind with PostCSS and a preprocessor like SASS is possible, but not strongly recommended.
 
-For this simple demo we will use ViteJS, but you could use Parcel, or WebPack. Start by installing the dependencies:
+Start by installing the dependencies:
 
 `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`
 
@@ -49,3 +49,20 @@ Now build your styles:
 `npx tailwindcss-cli build styles/app.css -o build/app.css`
 
 ## Step 3 Mockup time
+
+For this simple demo we will use ViteJS, but you could use Parcel, or WebPack.
+
+`npm init @vitejs/app`
+
+Then add a new script command to your package json:
+```json
+  "scripts": {
+    ...
+    "dev": "vite",
+    ...
+  },
+
+```
+
+Now start up the local server with:
+`npm run dev`
