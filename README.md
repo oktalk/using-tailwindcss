@@ -34,7 +34,7 @@ module.exports = {
 
 Along with the `tailwindcss@latest` package you installed there is also a CLI tool. We can use that to generate a Tailwind config file now:
 
-`npx tailwindcss init`
+`npx tailwindcss init -p`
 
 Next, you'll need to include Tailwind in a CSS file:
 
