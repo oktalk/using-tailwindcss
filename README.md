@@ -54,7 +54,7 @@ Building out a simple mockup in just minutes.
 
 For this simple demo we will use ViteJS, but you could use Parcel, or WebPack.
 
-`npm i @vite/vitejs`
+`npm i -D vite`
 
 Then add a new script command to your package json:
 ```json
