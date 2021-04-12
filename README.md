@@ -118,4 +118,4 @@ npm run dev
 
 ## Step 8 Theming tailwindcss
 
-
+## Step 9 Using tailwind plugin
