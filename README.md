@@ -88,3 +88,11 @@ module.exports = {
   }
 }
 ```
+
+## Step 3 Working with hovers and states
+
+Using utilities to style elements on hover, focus, and more.
+
+Almost any classes can be amended with the `hover:` class.
+
+
