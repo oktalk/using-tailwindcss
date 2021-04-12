@@ -67,7 +67,7 @@ Then add a new script command to your package json:
 Now start up the local server with:
 `npm run dev`
 
-## Step 3 Using media queries
+## Step 4 Using media queries
 
 Use responsive utilities to create adaptive layouts. Adding `sm:` or `md:` to classes will add `min-width` media queries.
 
@@ -89,10 +89,22 @@ module.exports = {
 }
 ```
 
-## Step 3 Working with hovers and states
+## Step 5 Working with hovers and states
 
 Using utilities to style elements on hover, focus, and more.
 
 Almost any classes can be amended with the `hover:` class.
 
+## Step 6 Remove duplication with @apply
+
+Use @apply to inline any existing utility classes into your own custom CSS.
+
+```css
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+.btn-blue {
+  @apply bg-blue-500 hover:bg-blue-700 text-white;
+}
+```
 
