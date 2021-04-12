@@ -67,7 +67,7 @@ Then add a new script command to your package json:
 Now start up the local server with:
 `npm run dev`
 
-## Step 3 Using media queries
+## Step 4 Using media queries
 
 Use responsive utilities to create adaptive layouts. Adding `sm:` or `md:` to classes will add `min-width` media queries.
 
