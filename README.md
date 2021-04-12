@@ -50,19 +50,4 @@ Now build your styles:
 
 ## Step 3 Mockup time
 
-For this simple demo we will use ViteJS, but you could use Parcel, or WebPack.
-
-`npm init @vitejs/app`
-
-Then add a new script command to your package json:
-```json
-  "scripts": {
-    ...
-    "dev": "vite",
-    ...
-  },
-
-```
-
-Now start up the local server with:
-`npm run dev`
+Building out a simple mockup in just minutes.
