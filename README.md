@@ -69,3 +69,22 @@ Now start up the local server with:
 
 ## Step 3 Using media queries
 
+Use responsive utilities to create adaptive layouts. Adding `sm:` or `md:` to classes will add `min-width` media queries.
+
+```js
+// tailwind.config.js
+module.exports = {
+  theme: {
+    screens: {
+      'tablet': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
+  }
+}
+```
