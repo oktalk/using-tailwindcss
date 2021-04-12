@@ -115,3 +115,7 @@ npm i @vite/vitejs
 npm install
 npm run dev
 ```
+
+## Step 8 Theming tailwindcss
+
+
