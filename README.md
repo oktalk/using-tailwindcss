@@ -1,18 +1,13 @@
-# Instructions
+# Intro to TailwindCSS
 
-## CDN
+Step through this repo using branches:
 
-## CLI
-
-- `npx tailwindcss-cli build styles/app.css -o build/app.css`
-
-### Notes
-
-- You may have an issue with node on your first try. Make sure you version of Node is greater than 11.
-
-## Build tool
-
-### Notes
-- Favor PostCSS -- you can use SASS, but native CSS is powerful enough on its own.
-- Install `tailwindcss` `postcss` `autoprefixer`
-- Setup tailwind with `npx tailwindcss init -p`
+-  step/1-hello-world
+-  step/2-simple-mockup
+-  step/3-build-out-mockup
+-  step/4-responsive-layout
+-  step/5-working-with-hovers-and-states
+-  step/6-remove-duplication-with-apply
+-  step/7-optimize-tailwindcss-for-production
+-  step/8-themeing-tailwindcss
+-  step/9-using-tailwind-plugin
